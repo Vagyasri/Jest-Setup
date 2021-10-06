@@ -3,8 +3,6 @@
 # Jest-Setup
 Setting up the Jest-pack for the future Projects
 
-- 
-
 ## Built With
 
 - HTML
@@ -41,6 +39,7 @@ Setting up the Jest-pack for the future Projects
 
 ### Basic Setup:
 
+- Install Jest using NPM: `npm install --save-dev jest`
 - 
 
 ### Get Live View in Localhost:
