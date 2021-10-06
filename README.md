@@ -52,7 +52,8 @@ Setting up the Jest-pack for the future Projects
             },
     ```
 
-### For Running test: `npm run test`
+### For Running Jest:
+- Run: `npm run test`
 
 
 ### Get Live View in Localhost:
