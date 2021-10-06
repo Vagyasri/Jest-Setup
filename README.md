@@ -9,6 +9,7 @@ Setting up the Jest-pack for the future Projects
 - CSS
 - JavaScipt
 - Webpack
+- ES6
 - Jest
 
 ## Author
@@ -40,7 +41,18 @@ Setting up the Jest-pack for the future Projects
 ### Basic Setup:
 
 - Install Jest using NPM: `npm install --save-dev jest`
-- 
+- Add the following section to your package.json:
+
+    ```diff
+    {
+        "scripts": {
+            "test": "jest"
+        }
+    }
+    ```
+
+### For Running test: `npm run test`
+
 
 ### Get Live View in Localhost:
 
