@@ -53,6 +53,7 @@ Setting up the Jest-pack for the future Projects
     ```
 
 ### For Running Jest:
+
 - Run: `npm run test`
 
 
