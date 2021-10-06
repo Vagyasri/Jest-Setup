@@ -56,6 +56,27 @@ Setting up the Jest-pack for the future Projects
 
 - Run: `npm run test`
 
+### Using Babel:
+
+- Configure Babel to target your current version of Node by creating a `babel.config.js` file in the root of your project:
+
+```diff
+module.exports = {
+  presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+};
+```
+
+### Using TypeScript:
+
+```diff
+// babel.config.js
+module.exports = {
+  presets: [
+    ['@babel/preset-env', {targets: {node: 'current'}}],
++   '@babel/preset-typescript',
+  ],
+};
+```
 
 ### Get Live View in Localhost:
 
