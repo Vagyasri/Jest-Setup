@@ -44,11 +44,12 @@ Setting up the Jest-pack for the future Projects
 - Add the following section to your package.json:
 
     ```diff
-    {
         "scripts": {
-            "test": "jest"
-        }
-    }
+    -       "test": "echo \"Error: no test specified\" && exit 1",
+    +       "test": "jest",
+            "start": "webpack serve --open",
+            "build": "webpack"
+            },
     ```
 
 ### For Running test: `npm run test`
