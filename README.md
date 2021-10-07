@@ -51,10 +51,15 @@ Setting up the Jest-pack for the future Projects
             "build": "webpack"
             },
     ```
+    
+- `babel-jest` is automatically installed when installing Jest and will automatically transform files if a babel configuration exists in your project. To avoid this behavior, you can explicitly reset the transform configuration option: (Create a file named `jest.config.js`)
 
-### For Running Jest:
-
-- Run: `npm run test`
+```diff
+// jest.config.js
+module.exports = {
+  transform: {},
+};
+```
 
 ### Using Babel:
 
@@ -77,6 +82,10 @@ module.exports = {
   ],
 };
 ```
+
+### For Running Jest:
+
+- Run: `npm run test`
 
 ### Get Live View in Localhost:
 
