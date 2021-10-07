@@ -85,7 +85,7 @@ module.exports = {
 
 ### For Running Jest:
 
-- Run: `npm run test`
+- Run: `npm run test` or `npm test`
 
 ### Get Live View in Localhost:
 
