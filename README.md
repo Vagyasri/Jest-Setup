@@ -63,6 +63,8 @@ module.exports = {
 
 ### Using Babel:
 
+- Install by Running: `npm install --save-dev @babel/plugin-transform-modules-commonjs`
+
 - Configure Babel to target your current version of Node by creating a `babel.config.js` file in the root of your project:
 
 ```diff
