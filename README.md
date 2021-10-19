@@ -43,7 +43,7 @@ Setting up the Jest-pack for the future Projects
 - Install Jest using NPM: `npm install --save-dev jest`
 - Add the following section to your package.json:
 
-    ```
+    ```diff
         "scripts": {
     -       "test": "echo \"Error: no test specified\" && exit 1",
     +       "test": "jest",
